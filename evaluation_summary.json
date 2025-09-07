@@ -1,0 +1,162 @@
+[
+  {
+    "attack": "none",
+    "defense": "fedavg",
+    "final_accuracy": 0.5860000252723694,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.48100000619888306
+  },
+  {
+    "attack": "none",
+    "defense": "krum",
+    "final_accuracy": 0.5870000123977661,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.515999972820282
+  },
+  {
+    "attack": "none",
+    "defense": "trimmed_mean",
+    "final_accuracy": 0.6019999980926514,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.5649999976158142
+  },
+  {
+    "attack": "none",
+    "defense": "median",
+    "final_accuracy": 0.5350000262260437,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.4970000088214874
+  },
+  {
+    "attack": "label_flip",
+    "defense": "fedavg",
+    "final_accuracy": 0.6179999709129333,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.546999990940094
+  },
+  {
+    "attack": "label_flip",
+    "defense": "krum",
+    "final_accuracy": 0.5260000228881836,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.4819999933242798
+  },
+  {
+    "attack": "label_flip",
+    "defense": "trimmed_mean",
+    "final_accuracy": 0.6399999856948853,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.5669999718666077
+  },
+  {
+    "attack": "label_flip",
+    "defense": "median",
+    "final_accuracy": 0.5360000133514404,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.45100000500679016
+  },
+  {
+    "attack": "trigger",
+    "defense": "fedavg",
+    "final_accuracy": 0.5389999747276306,
+    "final_asr": 0.33000001311302185,
+    "max_asr": 0.33000001311302185,
+    "min_accuracy": 0.4410000145435333
+  },
+  {
+    "attack": "trigger",
+    "defense": "krum",
+    "final_accuracy": 0.6019999980926514,
+    "final_asr": 0.3490000069141388,
+    "max_asr": 0.367000013589859,
+    "min_accuracy": 0.5090000033378601
+  },
+  {
+    "attack": "trigger",
+    "defense": "trimmed_mean",
+    "final_accuracy": 0.5059999823570251,
+    "final_asr": 0.8040000200271606,
+    "max_asr": 0.8040000200271606,
+    "min_accuracy": 0.42800000309944153
+  },
+  {
+    "attack": "trigger",
+    "defense": "median",
+    "final_accuracy": 0.5090000033378601,
+    "final_asr": 0.9639999866485596,
+    "max_asr": 1.0,
+    "min_accuracy": 0.503000020980835
+  },
+  {
+    "attack": "semantic",
+    "defense": "fedavg",
+    "final_accuracy": 0.621999979019165,
+    "final_asr": 0.5019999742507935,
+    "max_asr": 0.5019999742507935,
+    "min_accuracy": 0.5379999876022339
+  },
+  {
+    "attack": "semantic",
+    "defense": "krum",
+    "final_accuracy": 0.5130000114440918,
+    "final_asr": 0.02199999988079071,
+    "max_asr": 0.02199999988079071,
+    "min_accuracy": 0.49799999594688416
+  },
+  {
+    "attack": "semantic",
+    "defense": "trimmed_mean",
+    "final_accuracy": 0.5519999861717224,
+    "final_asr": 0.32600000500679016,
+    "max_asr": 0.32600000500679016,
+    "min_accuracy": 0.5090000033378601
+  },
+  {
+    "attack": "semantic",
+    "defense": "median",
+    "final_accuracy": 0.5230000019073486,
+    "final_asr": 0.6140000224113464,
+    "max_asr": 0.6140000224113464,
+    "min_accuracy": 0.43700000643730164
+  },
+  {
+    "attack": "delayed_activation",
+    "defense": "fedavg",
+    "final_accuracy": 0.4950000047683716,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.45500001311302185
+  },
+  {
+    "attack": "delayed_activation",
+    "defense": "krum",
+    "final_accuracy": 0.4650000035762787,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.43799999356269836
+  },
+  {
+    "attack": "delayed_activation",
+    "defense": "trimmed_mean",
+    "final_accuracy": 0.5360000133514404,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.5180000066757202
+  },
+  {
+    "attack": "delayed_activation",
+    "defense": "median",
+    "final_accuracy": 0.5440000295639038,
+    "final_asr": 0.0,
+    "max_asr": 0.0,
+    "min_accuracy": 0.515999972820282
+  }
+]

@@ -1,0 +1,74 @@
+# docker-compose.yml
+version: "3.8"
+services:
+  server:
+    build: .
+    container_name: fl_server
+    command: ["python", "server.py"]
+    ports:
+      - "8082:8082"
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  client1:
+    build: .
+    container_name: fl_client_1
+    depends_on:
+      - server
+    environment:
+      - HOSPITAL_INDEX=0
+      - SERVER_ADDRESS=server:8082
+      - PYTHONUNBUFFERED=1
+
+  client2:
+    build: .
+    container_name: fl_client_2
+    depends_on:
+      - server
+    environment:
+      - HOSPITAL_INDEX=1
+      - SERVER_ADDRESS=server:8082
+      - PYTHONUNBUFFERED=1
+
+  client3:
+    build: .
+    container_name: fl_client_3
+    depends_on:
+      - server
+    environment:
+      - HOSPITAL_INDEX=2
+      - SERVER_ADDRESS=server:8082
+      - PYTHONUNBUFFERED=1
+
+  client4:
+    build: .
+    container_name: fl_client_4
+    depends_on:
+      - server
+    environment:
+      - HOSPITAL_INDEX=3
+      - SERVER_ADDRESS=server:8082
+      - PYTHONUNBUFFERED=1
+
+  client5:
+    build: .
+    container_name: fl_client_5
+    depends_on:
+      - server
+    environment:
+      - HOSPITAL_INDEX=4 # Using a different hospital index for clarity
+      - SERVER_ADDRESS=server:8082
+      - MALICIOUS=1
+      - POISON_TYPE=trigger       
+      - POISON_RATE=0.2 # Increased rate for more visible effect
+      - TARGET_LABEL=1
+
+  client6:
+    build: .
+    container_name: fl_client_6
+    depends_on:
+      - server
+    environment:
+      - HOSPITAL_INDEX=5
+      - SERVER_ADDRESS=server:8082
+      - PYTHONUNBUFFERED=1
